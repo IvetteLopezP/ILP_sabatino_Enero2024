@@ -12,7 +12,7 @@ calificación_3 = float(input("Tercer parcial:"))
 
 #Procesos (Cálculos y operaciones matemáticas)
 promedio = (calificación_1 + calificación_2 + calificación_3)/3
-calificación_final = (if("El promedio de 3 calificaciones =", >=6,"Aprobado",if("El promedio de 3 calificaciones =",<=10)"Reprobado"))
+calificación_final = (if("El promedio de 3 calificaciones =", >6,"Aprobado","El promedio de 3 calificaciones =",<6,"Reprobado"))
 
 #Salida de datos
 print("El promedio de 3 calificaciones =", round(promedio,1))
