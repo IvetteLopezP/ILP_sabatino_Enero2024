@@ -7,11 +7,11 @@ import math
 #Declarar, crear instancias variables o constantes
 
 año_nacimiento = float(input("Ingresa un número:")) 
-fecha_actual = float(input("Ingresa otro número:"))
+año_actual = float(input("Ingresa otro número:"))
 
 #Procesos (Cálculos y operaciones matemáticas)
 
-edad = fecha_actual - año_nacimiento
+edad = año_actual - año_nacimiento
 
 #Salida de datos
 print("Edad", round(edad, 1))
