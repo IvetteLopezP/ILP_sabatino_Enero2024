@@ -21,4 +21,3 @@ x2 = (- b + math.sqrt (b * 2 - (4 * a * c) / (2 * a)))
 #Salida
 print("Valor de X1", round(x1, 1))
 print("Valor de X2", round(x2, 1))
-
