@@ -1,4 +1,4 @@
-#Ejericicio 7
+#Ejericicio 7.
  #Pedir el nivel del agua en metros de una cisterna
 
 #Declarar variables o constantes
@@ -8,18 +8,17 @@ nivel_de_agua= float(input("nivel de agua en metros:"))
 
 #Procesos (Cálculos y operaciones matemáticas)
 
-
 if (nivel_de_agua > 6 ):     
     print("Desbordamiento de agua en cisterna")
-elif (nivel_de_agua = 6 ):
+elif (nivel_de_agua == 6 ):
      print("Apagar bomba")
-elif (nivel_de_agua = 5.9 and nivel_de_agua >= 4):     
+elif (nivel_de_agua >= 5.9 and nivel_de_agua <= 4):     
     print("Desacelerar bomba")
-elif (nivel_de_agua =)
-
-
-
-#Salida
-
-print("Es un número par:", par)
-print("Es un número impar:", impar)
+elif (nivel_de_agua >=3.9 and nivel_de_agua <= 2):
+    print("Bomba trabajando")
+elif( nivel_de_agua >=1.9 and nivel_de_agua <=0):
+    print("Acelerar bomba")
+elif (nivel_de_agua == 0):
+    print ("Encender bomba")
+else : 
+     print ("Fuga en cisterna")
