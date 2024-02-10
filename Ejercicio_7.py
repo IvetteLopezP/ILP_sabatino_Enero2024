@@ -6,7 +6,7 @@
 #Entrada de Datos
 nivel_de_agua= float(input("nivel de agua en metros:")) 
 
-#Procesos (Cálculos y operaciones matemáticas)
+#Procesos (Cálculos y operaciones matemáticas) y salida
 
 if (nivel_de_agua > 6 ):     
     print("Desbordamiento de agua en cisterna")
